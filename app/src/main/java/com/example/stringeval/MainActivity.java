@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
                     throw new RuntimeException("Unexpected: " + (char)ch);
                 }
 
-                if (eat('^')) x = Math.pow(x, parseFactor()); // exponentiation
+                if (eat('^')) x = Math.pow(x, parseFactor());// exponentiation
 
                 return x;
             }
